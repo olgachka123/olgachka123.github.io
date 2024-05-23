@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animation2.css">
+</head>
+<body>
+    <header>
+        <h1>Мир фотографии</h1>
+        <input onclick="alert('Спасибо!');" type="button"/>
+    </header>
+    <main>
+        <h1 id="time">Время: </h1>
+        <a href="#qwe">qwerty</a>
+        <div>
+            <h2>10 самых знаменитых фотографов мира:</h2>
+            <ul class="block foto">
+                <li>
+                    Хельмут Ньютон (Helmut Newton, Германия, 1920-2004);
+                </li>
+                <li> 
+                    Андреас Гурски (Andreas Gursky, Германия, р. 1955); 
+                </li>  
+                <li>
+                    Ричард Аведон (Richard Avedon, США, 1923-2004); 
+                </li>  
+                <li>
+                    Ирвин Пенн (Irving Penn, США, 1917-2009); 
+                </li> 
+                <li>
+                    Анри Картье-Брессон (Henri Cartier-Bresson, Франция, 1908-2004); 
+                </li> 
+                <li>
+                    Ник Найт (Nick Knight, Великобритания, р. 1958); 
+                </li> 
+                <li>
+                    Мик Рок (Mick Rock, Великобритания, р. 1949); 
+                </li>     
+                <li>
+                    Марк Рибу (Marc Riboud, Франция, 1923-2016); 
+                </li> 
+                <li>
+                    Себастьян Сальгадо (Sebastião Salgado, Бразилия, р. 1944); 
+                </li> 
+                <li>
+                    Франк Хорват (Frank Horvat, Италия, 1928-2020).
+                </li>     
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h2 id="qwe">Самые интересные факты о фотографии</h2>
+            <ul>
+                <li>
+                    Первым человеком, который сумел сделать “фотографический” снимок постоянным, то есть закрепить изображение был Жозеф Ньепс это факт. Самым первым в истории фотографии считается снимок “Вид из окна”, датированный 1826 годом. Экспозиция снимка продолжалась 8(!) часов.
+                </li>
+                <li>
+                    Интересный факт о фотографии – Первым человеком, который изобрел негатив, был Фокс Тальбот. Это событие произошло в 1839 году. В этом же году Ипполит Байар представил миру первый позитивный отпечаток.
+                </li>
+                <li>
+                    Первая “фотобумага” была из асфальта. Точнее, на медную или стеклянную пластину наносился асфальтовый лак.
+
+                </li>
+            </ul>
+        </div>
+        <form>
+            <input type="">
+        </form>
+    </footer>
+<script>
+    document.querySelector('.block').classList.remove('foto');
+    document.querySelector('.block').classList.add('info');
+    var min=10;
+    document.getElementById("time").innerHTML=min;
+</script>
+
+</body>
+</html>
